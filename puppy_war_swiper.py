@@ -10,7 +10,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 def init_driver(website):
-    driver = webdriver.Firefox(executable_path=r'C:\Program Files (x86)\geckodriver.exe')
+    driver = webdriver.Firefox(executable_path=r'C:\...\geckodriver.exe')
     driver.wait = WebDriverWait(driver, 5)
     driver.get(website) #this will refresh the page..
     return driver
